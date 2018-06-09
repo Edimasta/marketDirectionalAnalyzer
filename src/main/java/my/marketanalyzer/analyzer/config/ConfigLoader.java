@@ -13,6 +13,7 @@ public class ConfigLoader {
 	if (context == null) {
 	    context = loadContextInitially(configClass);
 	    configToContextMapper.put(configClass, context);
+	    // test
 	}
 	return context.getBean(configClass);
     }
